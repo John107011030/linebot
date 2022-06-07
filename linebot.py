@@ -39,9 +39,9 @@ def callback():
 def handle_message(event):
     msg = event.message.text
     r = "你可以再說一次嗎？"
-    
-    if msg == 'Hi':
-        r = 'Hi'
+
+    if msg == 'hi':
+        r = 'hi'
     elif msg == '吃飽沒':
         r = '還沒'
 
